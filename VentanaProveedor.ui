@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ventana_Proveedores</class>
+ <widget class="QMainWindow" name="Ventana_Proveedores">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>760</width>
+    <height>470</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>760</width>
+    <height>470</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Ventana Proveedores</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="txt_nombre_proveedor">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>120</y>
+      <width>311</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;
+font: 75 10pt &quot;Arial&quot;;
+border: 1px solid white;
+border-radius: 5px;
+background-color: white;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_agregar_proveedor">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QObject{
+	color:White;
+	background-color: #666;
+	border-radius: 5px;
+}
+QObject:hover{
+	background-color: #222;
+}</string>
+    </property>
+    <property name="text">
+     <string>Agregar Proveedor</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ingrese_nombre">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>120</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Buscar Proveedor</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_actualizar_proveedor">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>310</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QObject{
+	color:White;
+	background-color: #666;
+	border-radius: 5px;
+}
+QObject:hover{
+	background-color: #222;
+}</string>
+    </property>
+    <property name="text">
+     <string>Actualizar Proveedor</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_buscar_proveedor">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>120</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QObject{
+	color:White;
+	background-color: #666;
+	border-radius: 5px;
+}
+QObject:hover{
+	background-color: #222;
+}</string>
+    </property>
+    <property name="text">
+     <string>Buscar</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_content">
+    <property name="geometry">
+     <rect>
+      <x>-5</x>
+      <y>0</y>
+      <width>771</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QObject{
+	background-color: #555;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbl_logo_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-50</y>
+       <width>271</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../../Downloads/rocky-linux-icon.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_titulo_2">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>20</y>
+       <width>331</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>18</pointsize>
+       <weight>99</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QObject{
+	font: 900 18pt &quot;Arial Black&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>Proveedores</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_atras">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>30</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QObject{
+	color:White;
+	background-color: #666;
+	border-radius: 5px;
+}
+QObject:hover{
+	background-color: #222;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../Downloads/productos.png</normaloff>../../../Downloads/productos.png</iconset>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="lbl_error_buscador">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>150</y>
+      <width>311</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 9pt &quot;Arial Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_eliminar_proveedor">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>370</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QObject{
+	color:White;
+	background-color: #666;
+	border-radius: 5px;
+}
+QObject:hover{
+	background-color: #222;
+}</string>
+    </property>
+    <property name="text">
+     <string>Eliminar Proveedor</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_mostrar_proveedor">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QObject{
+	color:White;
+	background-color: #666;
+	border-radius: 5px;
+}
+QObject:hover{
+	background-color: #222;
+}</string>
+    </property>
+    <property name="text">
+     <string>Mostrar Proveedor</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_proveedores">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>180</y>
+      <width>501</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Codigo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Empresa</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>NombrePoveedor</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Telefono</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Correo</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="btn_facturar">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QObject{
+	color: black;
+	background-color: #ccc;
+	border-radius: 5px;
+}
+QObject:hover{
+	background-color: yellow;
+}</string>
+    </property>
+    <property name="text">
+     <string>Generar Factura</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>760</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
